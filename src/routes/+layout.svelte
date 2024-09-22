@@ -15,6 +15,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
   :root {
+    --font-color: #333;
     --banner-bg-color: #f8f9fa;
     --banner-padding: 20px;
     --banner-text-align: left;
@@ -31,6 +32,7 @@
     font-family: var(--global-font-family);
     font-weight: var(--global-font-weight);
     font-style: var(--global-font-style);
+    color: var(--font-color);
   }
 
   .banner {
