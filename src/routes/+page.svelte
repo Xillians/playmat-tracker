@@ -32,7 +32,7 @@
   }
 
   .playmat .name {
-    font-size: 1.5em;
+    font-size: clamp(16px, 4vw, 22px);
     font-weight: bold;
   }
 </style>
